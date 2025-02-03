@@ -5973,8 +5973,8 @@
       "opcode" : 5288,
       "operands" : [
         { "kind" : "IdResult" },
-        { "kind" : "IdRef",        "name" : "'Component Type'" },
-        { "kind" : "IdRef",        "name" : "'Component Count'" }
+        { "kind" : "IdRef",        "name" : "_Component Type_" },
+        { "kind" : "IdRef",        "name" : "_Component Count_" }
       ],
       "capabilities" : [ "CooperativeVectorNV" ],
       "version" : "None"
@@ -5986,16 +5986,16 @@
       "operands" : [
         { "kind" : "IdResultType" },
         { "kind" : "IdResult" },
-        { "kind" : "IdRef",             "name" : "'Input'" },
-        { "kind" : "IdRef",             "name" : "'InputInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'Matrix'" },
-        { "kind" : "IdRef",             "name" : "'MatrixOffset'" },
-        { "kind" : "IdRef",             "name" : "'MatrixInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'M'" },
-        { "kind" : "IdRef",             "name" : "'K'" },
-        { "kind" : "IdRef",             "name" : "'MemoryLayout'" },
-        { "kind" : "IdRef",             "name" : "'Transpose'" },
-        { "kind" : "IdRef",             "name" : "'MatrixStride'", "quantifier": "?" },
+        { "kind" : "IdRef",             "name" : "_Input_" },
+        { "kind" : "IdRef",             "name" : "_InputInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_Matrix_" },
+        { "kind" : "IdRef",             "name" : "_MatrixOffset_" },
+        { "kind" : "IdRef",             "name" : "_MatrixInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_M_" },
+        { "kind" : "IdRef",             "name" : "_K_" },
+        { "kind" : "IdRef",             "name" : "_MemoryLayout_" },
+        { "kind" : "IdRef",             "name" : "_Transpose_" },
+        { "kind" : "IdRef",             "name" : "_MatrixStride_", "quantifier": "?" },
         { "kind" : "CooperativeMatrixOperands",             "quantifier" : "?" }
       ],
       "capabilities" : [ "CooperativeVectorNV" ],
@@ -6006,13 +6006,13 @@
       "class"  : "Reserved",
       "opcode" : 5290,
       "operands" : [
-        { "kind" : "IdRef",             "name" : "'Pointer'" },
-        { "kind" : "IdRef",             "name" : "'Offset'" },
-        { "kind" : "IdRef",             "name" : "'A'" },
-        { "kind" : "IdRef",             "name" : "'B'" },
-        { "kind" : "IdRef",             "name" : "'MemoryLayout'" },
-        { "kind" : "IdRef",             "name" : "'MatrixInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'MatrixStride'", "quantifier": "?" }
+        { "kind" : "IdRef",             "name" : "_Pointer_" },
+        { "kind" : "IdRef",             "name" : "_Offset_" },
+        { "kind" : "IdRef",             "name" : "_A_" },
+        { "kind" : "IdRef",             "name" : "_B_" },
+        { "kind" : "IdRef",             "name" : "_MemoryLayout_" },
+        { "kind" : "IdRef",             "name" : "_MatrixInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_MatrixStride_", "quantifier": "?" }
       ],
       "capabilities" : [ "CooperativeVectorTrainingNV" ],
       "version" : "None"
@@ -6022,9 +6022,9 @@
       "class"  : "Reserved",
       "opcode" : 5291,
       "operands" : [
-        { "kind" : "IdRef",             "name" : "'Pointer'" },
-        { "kind" : "IdRef",             "name" : "'Offset'" },
-        { "kind" : "IdRef",             "name" : "'V'" }
+        { "kind" : "IdRef",             "name" : "_Pointer_" },
+        { "kind" : "IdRef",             "name" : "_Offset_" },
+        { "kind" : "IdRef",             "name" : "_V_" }
       ],
       "capabilities" : [ "CooperativeVectorTrainingNV" ],
       "version" : "None"
@@ -6036,19 +6036,19 @@
       "operands" : [
         { "kind" : "IdResultType" },
         { "kind" : "IdResult" },
-        { "kind" : "IdRef",             "name" : "'Input'" },
-        { "kind" : "IdRef",             "name" : "'InputInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'Matrix'" },
-        { "kind" : "IdRef",             "name" : "'MatrixOffset'" },
-        { "kind" : "IdRef",             "name" : "'MatrixInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'Bias'" },
-        { "kind" : "IdRef",             "name" : "'BiasOffset'" },
-        { "kind" : "IdRef",             "name" : "'BiasInterpretation'" },
-        { "kind" : "IdRef",             "name" : "'M'" },
-        { "kind" : "IdRef",             "name" : "'K'" },
-        { "kind" : "IdRef",             "name" : "'MemoryLayout'" },
-        { "kind" : "IdRef",             "name" : "'Transpose'" },
-        { "kind" : "IdRef",             "name" : "'MatrixStride'", "quantifier": "?" },
+        { "kind" : "IdRef",             "name" : "_Input_" },
+        { "kind" : "IdRef",             "name" : "_InputInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_Matrix_" },
+        { "kind" : "IdRef",             "name" : "_MatrixOffset_" },
+        { "kind" : "IdRef",             "name" : "_MatrixInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_Bias_" },
+        { "kind" : "IdRef",             "name" : "_BiasOffset_" },
+        { "kind" : "IdRef",             "name" : "_BiasInterpretation_" },
+        { "kind" : "IdRef",             "name" : "_M_" },
+        { "kind" : "IdRef",             "name" : "_K_" },
+        { "kind" : "IdRef",             "name" : "_MemoryLayout_" },
+        { "kind" : "IdRef",             "name" : "_Transpose_" },
+        { "kind" : "IdRef",             "name" : "_MatrixStride_", "quantifier": "?" },
         { "kind" : "CooperativeMatrixOperands",             "quantifier" : "?" }
       ],
       "capabilities" : [ "CooperativeVectorNV" ],
@@ -6154,8 +6154,8 @@
       "operands" : [
         { "kind" : "IdResultType" },
         { "kind" : "IdResult" },
-        { "kind" : "IdRef",             "name" : "'Pointer'" },
-        { "kind" : "IdRef",             "name" : "'Offset'" },
+        { "kind" : "IdRef",             "name" : "_Pointer_" },
+        { "kind" : "IdRef",             "name" : "_Offset_" },
         { "kind" : "MemoryAccess",      "quantifier" : "?" }
       ],
       "capabilities" : [ "CooperativeVectorNV" ],
@@ -6166,9 +6166,9 @@
       "class"  : "Memory",
       "opcode" : 5303,
       "operands" : [
-        { "kind" : "IdRef",             "name" : "'Pointer'" },
-        { "kind" : "IdRef",             "name" : "'Offset'" },
-        { "kind" : "IdRef",             "name" : "'Object'" },
+        { "kind" : "IdRef",             "name" : "_Pointer_" },
+        { "kind" : "IdRef",             "name" : "_Offset_" },
+        { "kind" : "IdRef",             "name" : "_Object_" },
         { "kind" : "MemoryAccess",      "quantifier" : "?" }
       ],
       "capabilities" : [ "CooperativeVectorNV" ],
@@ -6326,11 +6326,11 @@
           { "kind" : "IdResult" },
           {
               "kind" : "IdRef",
-              "name" : "'RayQuery'"
+              "name" : "_RayQuery_"
           },
           {
               "kind" : "IdRef",
-              "name" : "'Intersection'"
+              "name" : "_Intersection_"
           }
       ],
       "capabilities" : [ "RayTracingClusterAccelerationStructureNV" ],
@@ -6343,7 +6343,7 @@
       "operands" : [
           { "kind" : "IdResultType" },
           { "kind" : "IdResult" },
-          { "kind" : "IdRef", "name" : "'Hit Object'" }
+          { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingClusterAccelerationStructureNV" ],
       "version" : "None"
@@ -6798,11 +6798,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingSpheresGeometryNV" ],
@@ -6817,11 +6817,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingSpheresGeometryNV" ],
@@ -6836,11 +6836,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
@@ -6855,11 +6855,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV"],
@@ -6874,11 +6874,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
@@ -6891,7 +6891,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingSpheresGeometryNV" ],
       "version" : "None"
@@ -6903,7 +6903,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingSpheresGeometryNV" ],
       "version" : "None"
@@ -6915,7 +6915,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
       "version" : "None"
@@ -6927,7 +6927,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
       "version" : "None"
@@ -6939,7 +6939,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingSpheresGeometryNV" ],
       "version" : "None"
@@ -6951,7 +6951,7 @@
       "operands" : [
         { "kind" : "IdResultType"},
         { "kind" : "IdResult"},
-        { "kind" : "IdRef", "name" : "'Hit Object'" }
+        { "kind" : "IdRef", "name" : "_Hit Object_" }
       ],
       "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
       "version" : "None"
@@ -6965,11 +6965,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingSpheresGeometryNV" ],
@@ -6984,11 +6984,11 @@
             { "kind" : "IdResult" },
             {
                 "kind" : "IdRef",
-                "name" : "'RayQuery'"
+                "name" : "_RayQuery_"
             },
             {
                 "kind" : "IdRef",
-                "name" : "'Intersection'"
+                "name" : "_Intersection_"
             }
         ],
         "capabilities" : [ "RayTracingLinearSweptSpheresGeometryNV" ],
